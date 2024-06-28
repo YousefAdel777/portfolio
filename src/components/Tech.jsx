@@ -6,15 +6,6 @@ import { technologies } from "../constants/constants";
 
 const Tech = () => {
 
-    // const [showCanvas, setShowCanvas] = useState(false);
-
-    // useEffect(() => {
-    //     const timeout = setTimeout(() => {
-    //         setShowCanvas(true)
-    //     }, 4000);
-    //     return () => clearTimeout(timeout);
-    // }, []);
-
     return (
         <motion.section
             variants={staggerContainer()}
