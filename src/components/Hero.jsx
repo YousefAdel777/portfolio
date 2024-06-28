@@ -3,16 +3,7 @@ import {motion} from "framer-motion";
 import ReactCanvas from "./canvas/ReactCanvas";
 
 const Hero = () => {
-
-    // const [showCanvas, setShowCanvas] = useState(false);
-
-    // useEffect(() => {
-    //     const timeout = setTimeout(() => {
-    //         setShowCanvas(true)
-    //     }, 2000);
-    //     return () => clearTimeout(timeout);
-    // }, []);
-
+    
     return (
         <section className="relative h-[100svh]">
             <div className="container flex items-start absolute inset-0 top-32 gap-6">
@@ -25,7 +16,6 @@ const Hero = () => {
                     <p className="hero-sub-text">I am a front-end web developer.</p>
                 </div>
             </div>
-            {/* {showCanvas && <ReactCanvas />} */}
             <ReactCanvas />
             <div className='absolute bottom-12 w-full flex justify-center items-center md:bottom-6'>
                 <a href='#about'>
