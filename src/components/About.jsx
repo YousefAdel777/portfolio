@@ -19,7 +19,7 @@ const About = () => {
                         Intriduction
                     </p>
                     <h2 className="section-head-text">
-                        Overview.
+                        Overview
                     </h2>
                 </motion.div>
                 <motion.p className="text-secondary mt-4 leading-7 max-w-3xl text-lg " variants={fadeIn("", "", 0.1, 1)}>

@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import {navLinks} from "../constants/constants";
-import {logo, menu, close} from "../assets";
+import {logo, menu, close, github} from "../assets";
 import { useEffect, useState } from "react";
 
 const Navbar  = () => {
@@ -33,7 +33,7 @@ const Navbar  = () => {
                     </div>
                 </Link>
                 <img className="w-8 h-8 md:hidden" src={menu} alt="Menu icon" onClick={() => setShowLinks(true)} />
-                <div className={`absolute flex items-center justify-center bg-primary z-10 left-0 top-0 duration-300 w-full h-[100svh] ${showLinks ? "translate-x-0" : "translate-x-full"} md:static md:h-auto md:translate-x-0 md:block`}>
+                <div className={`absolute flex items-center justify-center bg-primary z-50 left-0 top-0 duration-300 w-full h-[100svh] ${showLinks ? "translate-x-0" : "translate-x-full"} md:static md:h-auto md:translate-x-0 md:block`}>
                     <img className="w-8 h-8 absolute top-6 left-6 ml-auto md:hidden" src={close} alt="Close icon" onClick={() => setShowLinks(false)} />
                     <ul className="flex items-center flex-col gap-10 text-tertiary md:flex-row md:justify-end">
                         {navLinks.map(link => {
@@ -50,6 +50,11 @@ const Navbar  = () => {
                                 </li>
                             );
                         })}
+                        <li>
+                            <a href="https://github.com/YousefAdel777/">
+                                <img src={github} alt="Github logo" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
