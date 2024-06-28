@@ -10,6 +10,7 @@ import {
   worldranks,
   translatedio,
   spacetourism,
+  justweather
 } from "../assets";
 
 export const navLinks = [
@@ -63,6 +64,27 @@ const technologies = [
 
 const projects = [
   {
+    name: "Just Weather",
+    description: "Weather forecast web app that allows users to search for citiest by name and view weather information for the selected location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "swiperjs",
+        color: "green-text-gradient",
+      }
+    ],
+    image: justweather,
+    source_code_link: "https://github.com/YousefAdel777/just-weather",
+    live_url: "https://justweather-app.netlify.app/",
+  },
+  {
     name: "Translated.io",
     description:
       "Web app that allows users to translate words and sentences from a language to another, and listen to translated text using Web Speech API.",
@@ -100,7 +122,7 @@ const projects = [
     ],
     image: chatai,
     source_code_link: "https://github.com/YousefAdel777/Chat-AI",
-    live_url: "https://github.com/YousefAdel777/Chat-AI",
+    live_url: "https://chataigemini.netlify.app/",
   },
   {
     name: "World Ranks",
