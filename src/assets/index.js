@@ -16,6 +16,7 @@ import translatedio from "./projects/translatedio.png";
 import worldranks from "./projects/worldranks.png";
 import spacetourism from "./projects/space-tourism.png";
 import chatai from "./projects/chatai.png";
+import justweather from "./projects/justweather.png"
 
 export {
   logo,
@@ -34,4 +35,5 @@ export {
   translatedio,
   worldranks,
   chatai,
+  justweather,
 };
