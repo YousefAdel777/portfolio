@@ -3,7 +3,7 @@ This is my 3D Portfolio built with React, Vite and three.js.
 
 ## Features
 - Beautiful 3D models using three.js
-- View my my best projects and the source code for each one of them.
+- View my best projects and the source code for each one of them.
 - Smooth animations using framer-motion
 
 ## Tech Stack
@@ -16,7 +16,7 @@ This is my 3D Portfolio built with React, Vite and three.js.
 - 3D models from Sketchfab
 
 ## Installation
-To run this application locally, you'll need to have Node.js and npm istalled. Once you have clonde this repository, navigate to the project directory and run the following commands:
+To run this application locally, you'll need to have Node.js and npm istalled. Once you have cloned this repository, navigate to the project directory and run the following commands:
 ```
 npm install
 ```
